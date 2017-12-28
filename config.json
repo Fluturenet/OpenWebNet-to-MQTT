@@ -1,0 +1,16 @@
+{
+  "name": "Open Web Net USB Gateway",
+  "version": "0.1",
+  "slug": "openwebnet to MQTT",
+  "description": "Connects an OpenWebNet Gateway with MQTT.",
+  "url": "http://www.fluture.net/Home_Assistant-Open_Web_Net-addon/",
+  "startup": "application",
+  "boot": "auto",
+  "ports": {
+  },
+  "map": ["config:rw", "ssl"],
+  "options": {
+    },
+  "schema": {
+    }
+}
