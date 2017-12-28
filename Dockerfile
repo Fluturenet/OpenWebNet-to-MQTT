@@ -5,8 +5,8 @@ FROM $BUILD_FROM
 ENV LANG C.UTF-8
 
 # Setup base
-RUN apk add --no-cache jq python pip
-
+RUN apk add --no-cache jq python py-pip
+RUN pip install paho-mqtt
 
 # Copy data
 COPY run.sh /
