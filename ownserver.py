@@ -5,7 +5,7 @@ import socket
 
 broker_address="core-mosquitto"
 
-gateway_addr_port = "local-openwebnet:20000"
+gateway_addr_port = "local-openwebnet",20000
 
 def on_message(client,userdata,message):
     payload=str(message.payload.decode("utf-8"))
